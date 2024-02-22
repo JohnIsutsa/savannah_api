@@ -6,16 +6,16 @@ from authentication.models import User
 class Order(models.Model):
     
     MEDICINES = [
-        ('1', 'Paracetamol'),
-        ('2', 'Aspirin'),
-        ('3', 'Ibuprofen'),
-        ('4', 'Naproxen'),
-        ('5', 'Diclofenac'),
-        ('6', 'Celecoxib'),
-        ('7', 'Acetaminophen'),
-        ('8', 'Meloxicam'),
-        ('9', 'Piroxicam'),
-        ('10', 'Ketorolac'),
+        ('Paracetamol', 'Paracetamol'),
+        ('Aspirin', 'Aspirin'),
+        ('Ibuprofen', 'Ibuprofen'),
+        ('Naproxen', 'Naproxen'),
+        ('Diclofenac', 'Diclofenac'),
+        ('Celecoxib', 'Celecoxib'),
+        ('Acetaminophen', 'Acetaminophen'),
+        ('Meloxicam', 'Meloxicam'),
+        ('Piroxicam', 'Piroxicam'),
+        ('Ketorolac', 'Ketorolac'),
     ]
     
     item = models.CharField(max_length=100, choices=MEDICINES)
