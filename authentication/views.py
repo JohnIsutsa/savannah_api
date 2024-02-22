@@ -7,6 +7,7 @@ from rest_framework_simplejwt.tokens import RefreshToken
 from django.contrib.sites.shortcuts import get_current_site
 from django.urls import reverse
 from django.conf import settings
+from authentication.renderers import UserRenderer
 
 from authentication.utils import Util
 
@@ -18,6 +19,7 @@ from .serializers import EmailVerificationSerializer, LoginSerializer, RegisterS
 
 class RegisterView(generics.GenericAPIView):
     serializer_class = RegisterSerializer
+    renderer_classes = (UserRenderer,)
     
     def post(self, request):
         user = request.data
@@ -42,8 +44,6 @@ class RegisterView(generics.GenericAPIView):
             }
     
         Util.send_email(data)
-        
-        
         return Response(user_data, status=status.HTTP_201_CREATED)
     
 class VerifyEmail(views.APIView):
