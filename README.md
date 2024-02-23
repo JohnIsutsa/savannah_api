@@ -31,8 +31,6 @@ Managing customers and orders is a fundamental aspect of many businesses. This p
 - CircleCI: CI/CD platform for automating build, test, and deployment processes
 - Twilip: SMS gateway for sending SMS alerts
 - OpenID Connect: Authentication and authorization protocol
-- Docker: Containerization technology for packaging the application
-- Kubernetes: Container orchestration tool for managing containerized applications
 
 ## Setup and Installation
 1. Clone the repository:
