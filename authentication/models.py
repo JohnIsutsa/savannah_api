@@ -34,6 +34,7 @@ AUTH_PROVIDERS = {
 class User(AbstractBaseUser, PermissionsMixin):
     username = models.CharField(max_length=255, unique=True, db_index=True)
     email = models.EmailField(max_length=255, unique=True, db_index=True)
+    phone = models.CharField(max_length=255, db_index=True, default='+254746486487')
     is_verified = models.BooleanField(default=False)
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
