@@ -1,7 +1,7 @@
 ```markdown
 # Customer and Order Management System
 
-This project is a simple Customer and Order Management System built using Python Django. It provides REST APIs for managing customers and orders, along with authentication and authorization using OpenID Connect. Additionally, it integrates with the Africa's Talking SMS gateway to send SMS alerts to customers when orders are added.
+This project is a simple Customer and Order Management System built using Python Django. It provides REST APIs for managing customers and orders, along with authentication and authorization using OpenID Connect. Additionally, it integrates with the Twilio's SMS gateway to send SMS alerts to customers when orders are added as well as emails.
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -20,7 +20,7 @@ Managing customers and orders is a fundamental aspect of many businesses. This p
 ## Features
 - REST APIs for managing customers and orders
 - Authentication and authorization via OpenID Connect
-- Integration with Africa's Talking SMS gateway for sending SMS alerts to customers
+- Integration with Twilio's Talking SMS gateway for sending SMS alerts to customers
 - Secure handling of sensitive data
 - Unit tests with coverage checking
 - Continuous Integration and Continuous Deployment (CI/CD) setup
@@ -29,7 +29,7 @@ Managing customers and orders is a fundamental aspect of many businesses. This p
 - Python Django: Backend framework for building web applications
 - PostgreSQL: Relational database for storing customer and order data
 - CircleCI: CI/CD platform for automating build, test, and deployment processes
-- Africa's Talking: SMS gateway for sending SMS alerts
+- Twilip: SMS gateway for sending SMS alerts
 - OpenID Connect: Authentication and authorization protocol
 - Docker: Containerization technology for packaging the application
 - Kubernetes: Container orchestration tool for managing containerized applications
@@ -38,7 +38,7 @@ Managing customers and orders is a fundamental aspect of many businesses. This p
 1. Clone the repository:
    ```
    git clone <repository_url>
-   cd customer-order-management
+   cd savannah_api
    ```
 2. Create and activate a virtual environment:
    ```
