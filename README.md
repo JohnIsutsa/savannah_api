@@ -12,12 +12,14 @@
   - [Setup and Installation](#setup-and-installation)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
+    - [Configuration](#configuration)
   - [Usage](#usage)
+  - [API Endpoints](#api-endpoints)
+  - [Authentication](#authentication)
   - [Testing](#testing)
   - [Continuous Integration and Continuous Deployment](#continuous-integration-and-continuous-deployment)
   - [Contributing](#contributing)
   - [License](#license)
-  - [Sample .env File](#sample-env-file)
 
 ## Introduction
 
