@@ -12,14 +12,12 @@
   - [Setup and Installation](#setup-and-installation)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
-    - [Configuration](#configuration)
   - [Usage](#usage)
-  - [API Endpoints](#api-endpoints)
-  - [Authentication](#authentication)
   - [Testing](#testing)
   - [Continuous Integration and Continuous Deployment](#continuous-integration-and-continuous-deployment)
   - [Contributing](#contributing)
   - [License](#license)
+  - [Sample .env File](#sample-env-file)
 
 ## Introduction
 
@@ -38,6 +36,7 @@
 
 - **Python Django:** Backend framework for building web applications
 - **PostgreSQL:** Relational database for storing customer and order data
+- **CircleCI**: CI/CD platform for automating build, test, and deployment processes
 - **Twilio:** Communication API for sending SMS alerts
 - **OpenID Connect:** Authentication and authorization protocol with Google
 
