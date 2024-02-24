@@ -28,7 +28,7 @@ schema_view = get_schema_view(
         description="REST API for Savannah project",
         terms_of_service="https://www.testsite.com/policies/terms/",
         contact=openapi.Contact(email="contact@savannah.local"),
-        license=openapi.License(name="BSD License"),
+        license=openapi.License(name="MIT License"),
     ),
     public=True,
     permission_classes=(permissions.AllowAny,),
